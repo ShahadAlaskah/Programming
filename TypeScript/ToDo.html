@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  >
+  
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" >Home</a>
+    <a href="Cal.html">Calculator</a>
+    <a href="ToDo.html" class="active">To Do List</a>
+    <a href="LearnCoding.html">Learn Coding</a>
+    <a href="Frameworks.html">Frameworks</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="container" id ="ToDo">
+    <div id="myDIV" class="header">
+    <h2>My To Do List</h2>
+    <input type="text" id="myInput" placeholder="Add something...">
+    <input type="button" onclick="newElement()" class="addBtn" value="Add">
+  
+  </div>
+  <ul id="myUL">
+    <li>Learn html</li>
+    <li class="checked">grid in css</li>
+  </ul>
+  </div>
+     
+  <script src="index.js"></script>
+</body>
+</html>
